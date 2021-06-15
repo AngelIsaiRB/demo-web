@@ -1,30 +1,18 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+  <div class="bg-trasparent  w-screen h-16 flex items-center justify-center ">
+    <div class="flex items-center animate__animated animate__backInLeft text-white font-bold
+      mx-8 bg-gray-100 bg-opacity-10 hover:bg-gray-200 hover:bg-opacity-40 h-full px-5
+       cursor-pointer text-2xl">
+      <router-link  to="/">Home</router-link> 
+    </div>
+    <div class="flex items-center animate__animated animate__backInRight text-white font-bold
+      mx-8 bg-gray-100 bg-opacity-10 hover:bg-gray-200 hover:bg-opacity-40 h-full px-5
+       cursor-pointer text-2xl">
+      <router-link  to="/about">Otro</router-link>
+    </div>
   </div>
   <router-view/>
 </template>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-#nav {
-  padding: 30px;
-}
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
-}
 </style>
