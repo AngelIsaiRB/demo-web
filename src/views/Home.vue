@@ -5,7 +5,8 @@
     <TitlesComponetVue/>
   <CardComponentVue/>
   <ContrucComponentVue/>
-  
+  <div class="h-40"></div>  
+  <TeamCardsVue/>
   </div>
 </template>
 
@@ -13,6 +14,7 @@
 import CardComponentVue from '../components/CardComponent.vue'
 import ContrucComponentVue from '../components/ContrucComponent.vue'
 import Principal3dComponentVue from '../components/Principal3dComponent.vue'
+import TeamCardsVue from '../components/TeamCards.vue'
 import threeanimationinicialVue from '../components/threeanimationinicial.vue'
 import TitlesComponetVue from '../components/TitlesComponet.vue'
 export default {
@@ -22,7 +24,8 @@ export default {
     Principal3dComponentVue,
     CardComponentVue ,
     TitlesComponetVue,
-    ContrucComponentVue
+    ContrucComponentVue,
+    TeamCardsVue,
   }
 }
 </script>
