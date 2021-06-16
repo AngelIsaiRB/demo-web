@@ -5,7 +5,7 @@
     <TitlesComponetVue/>
   <CardComponentVue/>
   <ContrucComponentVue/>
-  <div class="h-96"></div>  
+  
   </div>
 </template>
 

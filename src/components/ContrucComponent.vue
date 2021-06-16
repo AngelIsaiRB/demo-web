@@ -26,7 +26,7 @@
                                 </h2>
                                 <input type="text" class="rounded px-4 w-full py-1 bg-gray-200  border border-gray-400 mb-6 text-gray-700 placeholder-gray-700 focus:bg-white focus:outline-none" placeholder="Email">                                
                                 <div class="flex items-center justify-between">
-                                    <button class="bg-gray-800 text-gray-200  px-2 py-1 rounded">Sign In</button>
+                                    <button class="bg-gray-800 text-gray-200  px-2 py-1 rounded">informame</button>
                                 </div>
                             </form>
                         </div>
